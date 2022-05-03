@@ -26,7 +26,7 @@ public class ClientWhite extends Client{
            //     e.printStackTrace();
 //            } finally { // в любом случае необходимо закрыть сокет и потоки
 //                System.out.println("Клиент был закрыт...");
-//               // clientSocket.close();
+                clientSocket.close();
 //               // in.close();
 //               // out.close();
 //            }
